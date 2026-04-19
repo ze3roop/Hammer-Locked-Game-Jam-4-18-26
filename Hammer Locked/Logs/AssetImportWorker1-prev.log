@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.3f1 (39d1a88d4dd1) revision 3789224'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan" at "2026-04-19T01:42:56.9200539Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan" at "2026-04-19T01:43:13.349338Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32189 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-19T01:42:56Z
+Date: 2026-04-19T01:43:13Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.3f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Evan/Desktop/Game Jame 4-18-26/Hammer Locked
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56459
+56492
 -licensingIpc
 LicenseClient-Evan
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/Evan/Desktop/Game Jame 4-18-26/Hammer Locked
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [44552]  Target information:
+Player connection [36496]  Target information:
 
-Player connection [44552]  * "[IP] 10.0.0.112 [Port] 0 [Flags] 2 [Guid] 147042098 [EditorId] 147042098 [Version] 1048832 [Id] WindowsEditor(7,Renaissance) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [36496]  * "[IP] 10.0.0.112 [Port] 0 [Flags] 2 [Guid] 2684733998 [EditorId] 2684733998 [Version] 1048832 [Id] WindowsEditor(7,Renaissance) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [44552] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [44552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36496] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
 Initialize engine version: 6000.4.3f1 (39d1a88d4dd1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Evan/Desktop/Game Jame 4-18-26/Hammer Locked/Assets
@@ -96,7 +96,7 @@ GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Evan"
 [Licensing::IpcConnector] LicenseClient-Evan channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan-6000.4.3" at "2026-04-19T01:42:57.6449733Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan-6000.4.3" at "2026-04-19T01:43:14.0821669Z"
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.2]
@@ -109,45 +109,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001605 seconds.
+Registered in 0.001284 seconds.
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              74ecb453c6c441d3bf0082f948fde451
-  Correlation Id:          1041fd08f751b405b4554e40168e06bf
-  External correlation Id: 8756655084735200575
+  Session Id:              22b47d140a5045328f5f1f339a8b34f5
+  Correlation Id:          594e7e51f8e4b6cb8ae5467a8bee05d7
+  External correlation Id: 9127208824645886556
   Machine Id:              xEez2VCEU+UDDQPrv48aLhmyK6g=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Evan-6000.4.3" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan-6000.4.3-notifications" at "2026-04-19T01:42:58.3369867Z"
-[Licensing::Module] Licensing Background thread has ended after 1.42s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Evan-6000.4.3" (connect: 0.00s, validation: 0.00s, handshake: 0.70s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Evan-6000.4.3-notifications" at "2026-04-19T01:43:14.7830841Z"
+[Licensing::Module] Licensing Background thread has ended after 1.43s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 594ms
-	BeginReloadAssembly (91ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (88ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (121ms)
-	FinalizeReload (272ms)
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 592ms
+	BeginReloadAssembly (96ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (93ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
+	FinalizeReload (254ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (71ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -187,3 +187,48 @@ Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Un
 Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1074ms
+	BeginReloadAssembly (120ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (371ms)
+		LoadAssemblies (258ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (496ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6547 unused Assets / (6.0 MB). Loaded Objects now: 7354.
+Memory consumption went from 157.7 MB to 151.8 MB.
+Total: 7.270300 ms (FindLiveObjects: 0.708100 ms CreateObjectMapping: 0.597900 ms MarkObjects: 3.585300 ms  DeleteObjects: 2.377000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 249224.073591 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '023fe1f17adf0c31612107948e2b6db0') in 0.0473428 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aad41f649d320aaa7ecfeaf9ce9dcc9a DependenciesID=afb9c74b720ac425e0c74b9dc017de84 StaticDependenciesID=845680681e140616ce6c1c532f6ecb24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
