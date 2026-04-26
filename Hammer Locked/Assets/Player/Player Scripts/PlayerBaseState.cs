@@ -36,6 +36,22 @@ public class PlayerBaseState : PlayerStateManager
             sm.rb.linearDamping = 0;
         #endregion
 
+        if (sm.attackStarted)
+        {
+            switch (sm.CurrentState)
+            {
+                case PlayerAttackState:
+                    
+                break;
+                case PlayerIdleState:
+                    sm.SetNextState(sm.PlayerAttackState); 
+                break;
+                case PlayerTakeDamageState:
+
+                break;
+            }
+        }
+
         // #region Weapon Methods
         // if (sm.fireStarted) // && canFire
         // {
@@ -145,6 +161,7 @@ public class PlayerBaseState : PlayerStateManager
         //Debug.Log("Vertical Input: " + verticalInput + " Horizontal Input: " + horizontalInput); 
         // calculate movement direction
         moveDirection = sm.orientation.forward * verticalInput + sm.orientation.right * horizontalInput;
+        moveDirection.y = 0; 
 
         //Debug.Log("Orientation.forward: " + sm.orientation.forward + "---- Orientation.right: " + sm.orientation.right); 
 

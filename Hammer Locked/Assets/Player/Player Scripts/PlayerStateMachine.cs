@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerStateMachine : MonoBehaviour, IDamageable
@@ -8,6 +9,11 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     private PlayerStateManager _currentState;
     public PlayerStateManager CurrentState { get { return _currentState; } }
     private PlayerStateManager _nextState; 
+
+    public PlayerAttackState PlayerAttackState; 
+    public PlayerIdleState PlayerIdleState;
+    public PlayerTakeDamageState PlayerTakeDamageState; 
+    
 
     [Header("Movement")]
     public float walkSpeed;
@@ -40,8 +46,8 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     public bool jumpStarted; 
     public bool sprintStarted; 
     public bool crouchStarted;
-    public bool fireStarted;
-    public bool firePerforming; 
+    public bool attackStarted;
+    public bool attackPerforming; 
     #endregion
 
     public Transform orientation;
@@ -50,14 +56,37 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
     public LayerMask enemyLayerMask; 
 
+    public Animator animator; 
+
     public void TryTakeDamage(float damage)
     {
         // take damage
-        //GameEventsManager.Instance.healthEvents.HealthLost(damage); 
+        GameEventsManager.Instance.healthEvents.HealthLost(damage); 
+        SetNextState(PlayerTakeDamageState); 
+    }
+    
+    public event Action<GameObject> OnApplyDamage;
+    public void ApplyDamage(GameObject other)
+    {
+        OnApplyDamage?.Invoke(other); 
+    }
+
+    public event Action OnEnableHitbox; 
+    public void EnableAttackHitbox()
+    {
+        OnEnableHitbox?.Invoke();
+    }
+
+    public event Action OnDisableHitbox;
+    public void DisableAttackHitbox()
+    {
+        OnDisableHitbox?.Invoke();
     }
 
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         //Singleton
         if(Instance != null && Instance != this)
         {
@@ -67,8 +96,14 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
         Instance = this; 
 
+        animator = GetComponentInChildren<Animator>(); 
 
-        _mainStateType ??= new PlayerIdleState();
+        PlayerIdleState = new PlayerIdleState();
+        PlayerAttackState = new PlayerAttackState();
+        PlayerTakeDamageState = new PlayerTakeDamageState();
+
+
+        _mainStateType ??= PlayerIdleState;
         SetNextStateToMain();
 
         enemyLayerMask = LayerMask.GetMask("Enemy");
@@ -182,16 +217,16 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     }
     private void OnFireStarted()
     {
-        fireStarted = true;
+        attackStarted = true;
     }
     private void OnFirePerforming()
     {
-        firePerforming = true;
+        attackPerforming = true;
     }
     private void OnFireCanceled()
     {
-        fireStarted = false;
-        firePerforming = false;
+        attackStarted = false;
+        attackPerforming = false;
     }
     #endregion
 } 

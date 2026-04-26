@@ -5,6 +5,8 @@ public class PlayerIdleState : PlayerBaseState
     public override void OnEnter(PlayerStateMachine _stateMachine)
     {
         base.OnEnter(_stateMachine);
+
+        sm.animator.Play("Human|Hammer_Idle");
     }
     public override void OnUpdate()
     {
