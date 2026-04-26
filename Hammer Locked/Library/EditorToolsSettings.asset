@@ -81,7 +81,7 @@ MonoBehaviour:
     collapsed: 0
   - groupType: UnityEngine.ProBuilder.Shapes.ProBuilderShape, Unity.ProBuilder, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-    collapsed: 0
+    collapsed: 1
   - groupType: UnityEngine.ProBuilder.ProBuilderMesh, Unity.ProBuilder, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
     collapsed: 0

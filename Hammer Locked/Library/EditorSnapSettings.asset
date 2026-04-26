@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AngleSnapEnabled: 1
   m_ScaleSnapEnabled: 1
   m_SnapSettings:
-    m_SnapToGrid: 1
+    m_SnapToGrid: 0
     m_Rotation: 15
     m_Scale: 1
     m_IncrementalSnapSize: {x: 0.5, y: 0.5, z: 0.5}

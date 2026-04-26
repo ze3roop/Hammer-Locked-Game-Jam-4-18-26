@@ -1,0 +1,656 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.3f1 (39d1a88d4dd1) revision 3789224'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-djax1" at "2026-04-26T03:23:50.9465076Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-26T03:23:50Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/djax1/Desktop/GameJam1/GameJamStuff/Hammer-Locked-Game-Jam-4-18-26/Hammer Locked
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57403
+-licensingIpc
+LicenseClient-djax1
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/djax1/Desktop/GameJam1/GameJamStuff/Hammer-Locked-Game-Jam-4-18-26/Hammer Locked
+C:/Users/djax1/Desktop/GameJam1/GameJamStuff/Hammer-Locked-Game-Jam-4-18-26/Hammer Locked
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [1736]  Target information:
+
+Player connection [1736]  * "[IP] 10.0.0.136 [Port] 0 [Flags] 2 [Guid] 3423846487 [EditorId] 3423846487 [Version] 1048832 [Id] WindowsEditor(7,AndrewDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Initialize engine version: 6000.4.3f1 (39d1a88d4dd1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/djax1/Desktop/GameJam1/GameJamStuff/Hammer-Locked-Game-Jam-4-18-26/Hammer Locked/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001883 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-djax1"
+[Licensing::IpcConnector] LicenseClient-djax1 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-djax1-6000.4.3" at "2026-04-26T03:23:51.7395157Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 726ms
+	BeginReloadAssembly (114ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (110ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (136ms)
+	FinalizeReload (354ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              c54bca36e850485bb698fdfb09c6cc6e
+  Correlation Id:          f9eeddb4e733ddf1d9fd36cab323a693
+  External correlation Id: 5849813513479122810
+  Machine Id:              fZ0LGvZNH3SeA4y2yL9hT9XVul8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-djax1-6000.4.3" (connect: 0.00s, validation: 0.00s, handshake: 0.75s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-djax1-6000.4.3-notifications" at "2026-04-26T03:23:52.4926575Z"
+[Licensing::Module] Licensing Background thread has ended after 1.55s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20066255364924-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Hammer Locked
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1614ms
+	BeginReloadAssembly (151ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (364ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (158ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (799ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (6.0 MB). Loaded Objects now: 7744.
+Memory consumption went from 159.7 MB to 153.7 MB.
+Total: 8.318500 ms (FindLiveObjects: 0.670600 ms CreateObjectMapping: 0.556000 ms MarkObjects: 4.773900 ms  DeleteObjects: 2.315500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14830.875703 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e47428c3c138f0a68808b7477a44d70') in 0.0656161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9da77b4a05086fc7149ef37359407be6 DependenciesID=315f1af02bab6935aeadb812d1650a2f StaticDependenciesID=e07d8b0cf9333bf8d61d3a3cf85d5d28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.813429 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e08d5e58158614e477a8662274753233') in 0.0193404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8127b6f64c6a15234886cc40afdc381 DependenciesID=7460232f0eef816d3c6a81412108e7f7 StaticDependenciesID=95628314890ce3f20cdd2893359df677 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.480710 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec75ca872032f93ef4bca38d9d5d2766') in 0.0144775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f96344606bb94c7a550be923afcc427 DependenciesID=342664150fcdcda25c8a8899c86fb140 StaticDependenciesID=e97759c83a1915b9fa1625d2501cd46d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.679964 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66bfe0ff4e8fe5ecbe6fc3b0492f0b61') in 0.0163638 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=858c8698be3335447c62583d8fd6deb0 DependenciesID=3aba32c1edcd03fee61a39416eac521d StaticDependenciesID=dca324d952d20620b36bb7c5f03fad3e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.877674 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d84641b7d448c0255f0b383f70b1d59') in 0.0145171 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f306e087e34ddb58db4dd4306f88687 DependenciesID=9a6a7757689162b29f49b4b7c72f39a8 StaticDependenciesID=28b47cab0f056df1cc6a4a78aaa97d5f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.932801 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70f8dfe13a0fd0080db655899740f17e') in 0.0145451 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c6962cdd74baf04b6539cf804cbf0b6 DependenciesID=4187ec551337500afd8d7e9d406f88ab StaticDependenciesID=74bb304c0a907f8b11daeef800279bf4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.962712 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f73e44c77131342a362d3205a0f634b') in 0.0157511 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ff83aab7d039edf2e7401f8599c94ab DependenciesID=471a5a8ba940dfda03f6ce511a4c9b9f StaticDependenciesID=23f1445e7c1b875ecd5c5a1688270959 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.295158 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f740a82de3169a9444100d24357f177') in 0.0179768 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae5dbd75a51666290fed2ec7ccc7d2ac DependenciesID=1d358dab2a9df30557a5c869ec584364 StaticDependenciesID=0b6e4c5e4a7980b02ad7165fbe9f8051 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.570441 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '230f75108b6ec77534545c61c03cab5e') in 0.0187776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=596e6022187ae032407f57f5def18af4 DependenciesID=69dab00da154a4e90bbab639eeb9d4a7 StaticDependenciesID=b56879a0574693ad3e9322aa006051c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.992504 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2edc7c33300939c19f750c442bc00f7') in 0.0178316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88f6504283176a2a1b9773da4b455edf DependenciesID=6380508b7065ff13b90a83bdbd0a1b0c StaticDependenciesID=79b4684b752c4d6b1a0d6afd9f253a37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.277897 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '780b183fe70cdec6d5d216678c040fce') in 0.017127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7fd89fa8d4d315cdf9a397a0feea14fd DependenciesID=26163e153e094e432ad2cee23c914994 StaticDependenciesID=77c4f4223786419759c876d4abab3115 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.335878 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c98719b04b19fd80586082093e877b15') in 0.0166676 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff701d74ae466676eec9ea4bafb0c4b2 DependenciesID=355248e3b5c544f9f22fc8444bfa8e51 StaticDependenciesID=81c84c38403649c38de2e4549fc589e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.510559 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f098b4e66247b5f986eb2fa770bb3ab') in 0.0200263 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b13c3f28a3d9a2fd54bcd027497c14e DependenciesID=f20b70296372a2215c0f0f8ea74f75a5 StaticDependenciesID=51414da8d8139f7d468a58e7ab615635 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.752574 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd59af2a4cba35f44f13b1654a67819e6') in 0.0183553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72b9b564fb4b6545e78574c89a6d142e DependenciesID=6c74e16d8b138c26bbbd7b130c6a1014 StaticDependenciesID=1cdf41d8ba7449f15bf1e62309aa7c05 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.647193 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc6585758e5fb9b98fce8bb7dc11cf76') in 0.0203999 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5726fba30ad7a2a68f81e4c1fc323fd DependenciesID=8d5885d1e669cb08ffdd9e2a57204edf StaticDependenciesID=c3bf86087eba01b89d5ab458847fbd2d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.680291 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65e797ef87c25b7962137d09b5555d2a') in 0.016194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68532518e56f517a8d7b8bcf3a15d104 DependenciesID=c210fcf2874be0d14233b890f09731f9 StaticDependenciesID=d7d2466c3692ec9d94452074992286ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.138311 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '99e77a1d374d87f6580a05254d51890c') in 0.0140867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37c8fc6ea55ab25573ea07d164b1a3e7 DependenciesID=b31c413a070d2e231b4a7920528332d6 StaticDependenciesID=52f76e93e03186eb86f141ffb5cefa70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.502315 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a25522a37c923b33c51c783a0869cc0') in 0.0161164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ee267cfd2e85c0866371feeff0dd491 DependenciesID=e73737ed2d7e3464ae2ead925233b027 StaticDependenciesID=01dc1418c69ce208edf35724fbd851af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.130640 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '333def3de850de239b6dc7cb3d0a5c94') in 0.0170356 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2d9dbee0f038c9e81bedb43192be26a DependenciesID=d05e6a03d89da9386705485290dfd0f1 StaticDependenciesID=e7d8b8dfcee80dce13bdbbd3e21700fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.722084 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5a51637cef693fc1531209531aa7768f') in 0.0152716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0a5038d1c1a9175dfee7265475355fb DependenciesID=377557ba8ae666214d6db6c5fcabf231 StaticDependenciesID=831c189988f95bdc2353854d9784ae83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.715483 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '920128a88bdb3d8f0af281d8641e3899') in 0.0208794 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ede69a7c10c7cb1b7a24ab41626747c5 DependenciesID=1a031dacba3bd6c015a35cc36a40bc3d StaticDependenciesID=6f9d2b07c1144b76dd322c443f64569e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.980362 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '51c9c330c127e28cd3528a04c25381cf') in 0.016641 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a96a58671e818aba723de85b0cca5797 DependenciesID=56ce39d7eda22b9c781c43ef52e3d17b StaticDependenciesID=78653a36de8fc5c97d446676f87e0a29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.372836 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ae556a4a08feb5f6c46208ada9fc0e0') in 0.016733 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07c3deaa5084a9b9fd63f73a807873dc DependenciesID=553fce2059c2f27a3b9b3479b31d382e StaticDependenciesID=5fb6aba0bbb6027ba7b20358562f3f3a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.311102 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93422ca3ed92b82bb1a917058e184814') in 0.0186792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e495c32ef15c11542372e53a3fe3d806 DependenciesID=5462ca6a2af68b04821e61a3f59ea9a7 StaticDependenciesID=dfd8d9b7cfb4d100e71f4fa554d4f6ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.360890 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7146b40d18e912df31dffa5dcba3f74') in 0.0178502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b69d02065f28d13aa8f968a845d824f7 DependenciesID=ba562355045fb1fea9006b12b82b1e91 StaticDependenciesID=2243c2a806a291f8cd014ffd4e2f3243 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.122333 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '727eb039fa227bdc56bd5e27b412b153') in 0.0200413 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44d0b0b657f0053c476c97e09b8a6ad0 DependenciesID=d2b9ed24b6ab56dae35c933811c14602 StaticDependenciesID=01d92ba334007bb1857a1aacd5755117 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (2.7 MB). Loaded Objects now: 7746.
+Memory consumption went from 153.3 MB to 150.7 MB.
+Total: 6.210000 ms (FindLiveObjects: 0.383900 ms CreateObjectMapping: 0.451800 ms MarkObjects: 4.912500 ms  DeleteObjects: 0.461200 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Import Request.
+  Time since last request: 46.723384 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a21e7092fd4eaae6e18d6579e1a1223f') in 0.017486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af6120c88974bb090a4234270e8e639b DependenciesID=ebf261f0e8a1367791e4661a992d0bd8 StaticDependenciesID=05541c39302e41a2f80b04fb28a62ff8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.259338 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee940b16f9cd024f9c482193bd01537a') in 0.018289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6565c26660be79bb042230da84b04b57 DependenciesID=e3fb9b4ac3b62386614caef58317e56c StaticDependenciesID=65eed9a8da2891059d7f1dc04a3feb7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.411679 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b857719f5f895e00baba1403787dd53') in 0.0179315 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20d6e4cafcb164a07aded85f86ad3cdc DependenciesID=61ad7df88ccd1964781660d07da5996a StaticDependenciesID=75a65c9f073681dac70950fe5f270c9a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.384762 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ac84616d8950f61a7d669817386e2a22') in 0.0157598 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e52150111cdce667d2cffb6fa0ee0bf DependenciesID=b4b32585b5afe359d3378bd5c2e0f222 StaticDependenciesID=000a83828d3682dfce29a5c3895d380c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.435672 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bf28b32e6e5f2ce022fb60093e7b29f') in 0.0179752 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87ee58fcf79bba91e8c4cf5cbebd9d94 DependenciesID=f3ef8b2b24600f2e9b8f1c95419e902a StaticDependenciesID=c55f67c5e0d245ca51901fd5904ea623 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.757318 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '74b064cf5274a8223e214b50c950a791') in 0.0201912 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1b63f7e59b1f8cc5f38581433efa5e6 DependenciesID=06aa88df580cd4375d183ac449e5af5a StaticDependenciesID=e61ef4a3ce396791e5c2cf8086d6b605 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.239813 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d5de82cee92efa13c9ec040feb647c3') in 0.0188052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12fe34571fda4881e1a5d1b66040c4bd DependenciesID=04cbe3125e3000f93ac174369ac68e0e StaticDependenciesID=8816678733aa80010b965000e2bfc382 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.383907 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '41dee0d5944fc0c99f64fab529282fba') in 0.0168272 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f05d5486d65e98b3007a7de730e7c16 DependenciesID=7f2aa326bd6c1ab16bddc71fbed26a3f StaticDependenciesID=f3e7786d425672e50816f704a34cba8e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.546993 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e7883c810ea5b378dfc9afcaf1e2eb43') in 0.0157896 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fad383d9ea1a2a9583ae03ab9b9e9eaa DependenciesID=76d5dd359893bc36c4aa7bd0a5eef852 StaticDependenciesID=db3c59bec20775dc1b99500dc263611b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.761029 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea69ffafdf0ffab5e671229ba647c193') in 0.0179575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43cb27bd2c442b7b5fdd109a961dcc72 DependenciesID=f2623d52795d7db3039d408bf8549e16 StaticDependenciesID=3ab2d1bf805f85b4ef117437a46778a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.097208 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '600ba1c1f54922500956d33797be157e') in 0.0163371 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f474ef2e1609445319e8f28de47646f2 DependenciesID=d5624d7efe081099c89060f46ea7a908 StaticDependenciesID=949e824a3090882a17d8f4a2bf3c7489 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.152985 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '35a0cf60d2e4b4561aa18a91f2abfebc') in 0.0194112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22af43a0ad252d586e88173780850b00 DependenciesID=5d3b1e9bf72f02be3833cda0736cefb9 StaticDependenciesID=ce5cbfe32f5456083e5e93348196ca73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.495570 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2e08b805233e9bc343f3796324c2d2e') in 0.0199057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6b8ef93f8582e40a4f9cb7d1ab09703 DependenciesID=67fb2e06f844e7a8d8b0e66c9e69efe1 StaticDependenciesID=6dd826b30d0bdfd0ec3e95e308c1a098 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.467436 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e8bb46e153cd1535ed8e8e85e6be96b0') in 0.0196627 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f90cd1e6cb223b1f1252cb31080e8a9 DependenciesID=d384baa99d9fcb50a79f2e00d1ce82dc StaticDependenciesID=6f63ef254684e15f71f3a21a9fc5a855 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.125984 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '39d728cc12cae8d39c2196d95eb9786d') in 0.0199305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3658e88eadc66381a9cbc433d544c27 DependenciesID=731dbea9af29658681b891317cc00f4a StaticDependenciesID=e43515a078dc38df1dd39a5fc60fa08f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.511294 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3519451d142e87df4878e6a67674769c') in 0.0218633 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb4c314aa7330c4d24e8caab6d137f34 DependenciesID=08d691b950a9baff030de1cffd1660d0 StaticDependenciesID=fdf4af77809810e9fae4b4aeb7451974 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.446687 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f1e403156dd73cc8cf0b2fa75e9c6c1') in 0.0261122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0498f4ee69e47fd7dc8ebcb7028ff4d5 DependenciesID=1801e43853063e0d97de4dad3b84921d StaticDependenciesID=07663b0a672cf38b2ae771e859d009d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.510172 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '912b109626de9b644829abd422a76b91') in 0.0223735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83e3929e43c5be24d80b968aa62a1fd5 DependenciesID=bc06a9b01a4574339459dac6b78669e5 StaticDependenciesID=3773df483162bcfdd6f1ff34021520a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.551970 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c32315bddc929e5062c70b164451bd1c') in 0.0203136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c0467cccd1420302ebae406eaf3b504 DependenciesID=54cbf2af47a89001f795a867bb0d3936 StaticDependenciesID=5b0b3e598b2ecf2672f736067fedff60 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.410824 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06e955188fe091c75480773dc5410dcd') in 0.0184389 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82234fa877e2cf5f08674c2e0f3cbc26 DependenciesID=dedf4ba3bf7643db602258f7222468ad StaticDependenciesID=eafce6c9b01a4adea0d71e3356ae1855 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.477667 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3f4d2c8f620e3f4d1a4d7dfb7ab4d3a') in 0.0201494 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d20a22f7a17120ce27c086723445773 DependenciesID=b1a94df042dadb0d6c8a10c0fb0c3c1a StaticDependenciesID=cb37b135b13a8410d0fb2790114903a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.901788 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47f5d2a8e8e4d750915ea3acaf67d480') in 0.0203441 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69dffd9a6eb592594695dde819993c29 DependenciesID=9e01cfce822af7a51ec5679738e911e3 StaticDependenciesID=22326572ba0e7938afa8a6b6d1545f87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.390250 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3897cb3b58ba02675ffe0d41e0bd5b1') in 0.017344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=690c9f42663e241f8987416506a741a3 DependenciesID=7e66298129e1dd13252669a96a47bb6c StaticDependenciesID=63095331928ab8530826de37a5bbb4b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.384558 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bac08114757bd18324bcee2b6b982dd8') in 0.0197838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ee9b59b268738c442c5934aea5cc866 DependenciesID=ea1c9aa5a71370445ae09de008b442ac StaticDependenciesID=16d156fd4b729a02d49ce2feafd831ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.843411 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c398b550dcb206062642e95c6d422214') in 0.0171175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d217bec8253b3ddd3bb94b860ff523eb DependenciesID=cd82ba006ff1a39efe2a3e524a9c1239 StaticDependenciesID=3b52ac582b652385a58428bd292fda25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.509040 seconds.
+  path: Assets/Scenes/AndrewScene.unity
+  importAddress: Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/AndrewScene.unity using Guid(81c9e418850a41847ab5acfee56cde78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29efaec05be8f6cd2b0a38a579befa96') in 0.0200537 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3cd473d1e29e42928de72c6b7b1a99df DependenciesID=2b8373f386c97ca35f0642cbc65f37cc StaticDependenciesID=579f719ac338f9786e75bb48cc8f5783 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
