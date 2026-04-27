@@ -9,4 +9,10 @@ public class AudioEvents
     {
         OnPlaySound?.Invoke(sound, position); 
     }
+
+    public event Action<SoundData, GameObject> OnPlaySoundFollowObject; 
+    public void PlaySoundFollowObject(SoundData sound, GameObject gameObject)
+    {
+        OnPlaySoundFollowObject?.Invoke(sound, gameObject); 
+    }
 }

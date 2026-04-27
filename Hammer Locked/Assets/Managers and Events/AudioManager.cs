@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
     private void OnEnable()
     {
         GameEventsManager.Instance.audioEvents.OnPlaySound += OnPlaySound;
+
+        GameEventsManager.Instance.audioEvents.OnPlaySoundFollowObject += OnPlaySoundFollowObject;
     }
     private void OnDisable()
     {
@@ -33,6 +35,33 @@ public class AudioManager : MonoBehaviour
         source.clip = clip;
         source.volume = sound.volume;
         source.pitch = Random.Range(sound.pitchMin, sound.pitchMax);
+
+        source.Play();
+
+        Destroy(source.gameObject, clip.length / source.pitch);
+    }
+    public void OnPlaySoundFollowObject(SoundData sound, GameObject gameObject)
+    {
+        if (sound == null) return;
+
+        AudioClip clip = sound.GetRandomClip();
+        if (clip == null) return;
+
+        AudioSource source = Instantiate(
+            sfxSourcePrefab,
+            gameObject.transform.position,
+            Quaternion.identity,
+            gameObject.transform
+        );
+
+        source.clip = clip;
+        source.volume = sound.volume;
+        source.pitch = Random.Range(sound.pitchMin, sound.pitchMax);
+
+        source.spatialBlend = 1f;
+        source.rolloffMode = AudioRolloffMode.Logarithmic;
+        source.minDistance = 1f;
+        source.maxDistance = 70f;
 
         source.Play();
 

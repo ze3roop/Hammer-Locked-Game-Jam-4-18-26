@@ -108,7 +108,7 @@ Material:
     - _FoamScale: 0.176
     - _FoamSharpness: 0.596
     - _FoamSpeed: 0.34
-    - _FoamStretchX: 1
+    - _FoamStretchX: 2.11
     - _FoamStretchY: 2.37
     - _FoamTexture: 1
     - _Frequency: 0.08

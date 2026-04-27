@@ -45,4 +45,13 @@ public class InputEvents
 
     public event Action OnFireCanceled;
     public void FireCanceled() { OnFireCanceled?.Invoke(); }
+
+    public event Action OnPauseStarted;
+    public void PauseStarted() { OnPauseStarted?.Invoke(); }
+
+    public event Action OnPauseCanceled;
+    public void PauseCanceled() { OnPauseCanceled?.Invoke(); }
+
+    public event Action<bool> isPaused;
+    public void IsPaused(bool paused) { isPaused?.Invoke(paused); }
 }

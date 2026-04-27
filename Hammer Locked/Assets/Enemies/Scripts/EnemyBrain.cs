@@ -45,10 +45,13 @@ public class EnemyBrain : MonoBehaviour, IDamageable
     public float maxHealth; 
     public float currentHealth; 
 
+    #region SOUNDS
     public SoundData bodyhitSounds;
     public SoundData groanSounds;
     public SoundData deathSounds;
 
+    public SoundData attackSounds; 
+    #endregion
     public ParticleSystem hitEffect;
 
     //To have our source destination for our patrol radius
@@ -91,7 +94,7 @@ public class EnemyBrain : MonoBehaviour, IDamageable
         }
     }
 
-    void EnableRagdoll()
+    public void EnableRagdoll()
     {
         int ragdollLayer = LayerMask.NameToLayer(ragdollLayerName);
         SetLayerRecursive(transform, ragdollLayer);
@@ -252,7 +255,7 @@ public class EnemyBrain : MonoBehaviour, IDamageable
 
     public void Death()
     {
-        GameEventsManager.Instance.audioEvents.PlaySound(deathSounds, this.transform.position);
+        GameEventsManager.Instance.audioEvents.PlaySoundFollowObject(deathSounds, gameObject);
         EnableRagdoll(); 
         StartCoroutine(DestroyTimer());
     }

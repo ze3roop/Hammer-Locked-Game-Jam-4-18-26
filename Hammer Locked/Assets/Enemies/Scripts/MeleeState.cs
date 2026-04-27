@@ -15,6 +15,7 @@ public class MeleeState : IEnemyState
         _until = Time.time + 2.35f; // quick “swing”
         b.animator.Play("Hook_Attack", 0, 0f);
         b.animator.Update(0f); // forces Animator to apply immediately
+        GameEventsManager.Instance.audioEvents.PlaySound(b.attackSounds, b.transform.position);
     }
 
     public void OnUpdate()

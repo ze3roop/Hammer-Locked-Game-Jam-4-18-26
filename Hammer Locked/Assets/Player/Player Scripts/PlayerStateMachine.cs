@@ -60,8 +60,23 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
     #region SOUNDS
     public SoundData swooshSound;
-
+    public SoundData deathFallSound;
+    public SoundData hurtSounds; 
+    public SoundData groanSounds;
     #endregion
+
+    public MoveCamera moveCamera;
+    public PlayerCam playerCam; 
+
+    public void DeathFall()
+    {
+        GameEventsManager.Instance.audioEvents.PlaySoundFollowObject(deathFallSound, gameObject);
+
+        moveCamera.enabled = false;
+        playerCam.enabled = false;
+
+        Camera.main.transform.LookAt(this.transform);
+    }
 
     public void TryTakeDamage(float damage)
     {
@@ -87,6 +102,7 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     {
         OnDisableHitbox?.Invoke();
     }
+
 
     private void Awake()
     {

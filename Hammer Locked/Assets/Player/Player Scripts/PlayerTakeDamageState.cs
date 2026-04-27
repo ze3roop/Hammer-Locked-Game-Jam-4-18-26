@@ -7,6 +7,9 @@ public class PlayerTakeDamageState : PlayerBaseState
         base.OnEnter(_stateMachine);
 
         sm.animator.Play("Human|Hammer_TakeDamage");
+
+        GameEventsManager.Instance.audioEvents.PlaySound(sm.hurtSounds, sm.transform.position);
+        GameEventsManager.Instance.audioEvents.PlaySound(sm.groanSounds, sm.transform.position);
     }
     public override void OnUpdate()
     {
