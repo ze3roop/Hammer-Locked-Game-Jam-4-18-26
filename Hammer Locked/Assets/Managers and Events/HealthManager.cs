@@ -7,6 +7,9 @@ public class HealthManager : MonoBehaviour
     [SerializeField] protected float currentHealth;
     [SerializeField] protected float maxHealth; 
 
+    
+    public SoundData healSound;
+
     void Start()
     {
         currentHealth = startingHealth; 
@@ -27,6 +30,10 @@ public class HealthManager : MonoBehaviour
 
     private void OnHealthGained(float gainedAmount)
     {
+        if(currentHealth == maxHealth) return;
+
+        
+        GameEventsManager.Instance.audioEvents.PlaySound(healSound, PlayerStateMachine.Instance.transform.position); 
         currentHealth = Mathf.Clamp(currentHealth + gainedAmount, 0, maxHealth); 
         GameEventsManager.Instance.healthEvents.HealthChanged(currentHealth); 
     }
@@ -34,5 +41,10 @@ public class HealthManager : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth - lostAmount, 0, maxHealth); 
         GameEventsManager.Instance.healthEvents.HealthChanged(currentHealth); 
+
+        if(currentHealth <= 0)
+        {
+            PlayerStateMachine.Instance.Death(); 
+        }
     }
 }

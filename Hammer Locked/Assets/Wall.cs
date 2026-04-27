@@ -24,6 +24,8 @@ public class Wall : MonoBehaviour, IDamageable
     public float explositionRadius;
     public void InitiateDestruction()
     {
+        GameEventsManager.Instance.healthEvents.HealthGained(5f);
+
         var parent = transform.parent;
 
         Transform wallBroken = Instantiate(

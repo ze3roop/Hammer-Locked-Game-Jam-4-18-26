@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 100.5, y: 7.9, z: -4.30847}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.73142266, y: 0.73142266, z: 0.73142266}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2622710960023546538}
@@ -171,7 +171,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   grounded: 0
-  maxSlopeAngle: 40
+  maxSlopeAngle: 90
   exitingSlope: 0
   movement: {x: 0, y: 0}
   jumpStarted: 0
@@ -185,6 +185,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   animator: {fileID: 0}
+  swooshSound: {fileID: 11400000, guid: a0e72f5c1f30fb743bcbf280a5aaa2c8, type: 2}
+  deathFallSound: {fileID: 11400000, guid: 7c438c2746c14b74d8bcd4a2cd99e0eb, type: 2}
+  hurtSounds: {fileID: 11400000, guid: e6ed3892e7ae8b547a40d83854697ae0, type: 2}
+  groanSounds: {fileID: 11400000, guid: c6d7fccf79e8f134bbec7bfca8364caa, type: 2}
+  moveCamera: {fileID: 0}
+  playerCam: {fileID: 0}
 --- !u!1 &3485004422745703560
 GameObject:
   m_ObjectHideFlags: 0

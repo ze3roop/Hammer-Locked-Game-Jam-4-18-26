@@ -217,7 +217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d0842b13bee8e3469185849ff14e366, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.76908
+      value: -5.861
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d0842b13bee8e3469185849ff14e366, type: 3}
       propertyPath: m_LocalPosition.y
@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d0842b13bee8e3469185849ff14e366, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 29.887
+      value: 28.688
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d0842b13bee8e3469185849ff14e366, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2313,6 +2313,7 @@ MonoBehaviour:
   bodyhitSounds: {fileID: 11400000, guid: 39cf23c1aa62c1b4a8b2a458c4cc9097, type: 2}
   groanSounds: {fileID: 11400000, guid: 4ef10000f88831b449b8622be0d3d666, type: 2}
   deathSounds: {fileID: 11400000, guid: e1df5e0b245d83742af17e65281f2ffc, type: 2}
+  attackSounds: {fileID: 11400000, guid: 459792aeec3f2bd4b8cadec135862d2f, type: 2}
   hitEffect: {fileID: 3931650618978681877}
   startingPosition: {x: 0, y: 0, z: 0}
   lateralForceMin: 30

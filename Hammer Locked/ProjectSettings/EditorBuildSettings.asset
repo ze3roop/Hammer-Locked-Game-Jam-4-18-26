@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: eabba8ab66c81a54b9d40773841e681e
   - enabled: 1
-    path: Assets/Scenes/AndrewScene 1.unity
-    guid: 17ef23e7ebaa7fe4d85d8a636ef3702e
-  - enabled: 0
     path: Assets/Scenes/AndrewScene.unity
     guid: 81c9e418850a41847ab5acfee56cde78
+  - enabled: 0
+    path: Assets/Scenes/AndrewScene 1.unity
+    guid: 17ef23e7ebaa7fe4d85d8a636ef3702e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

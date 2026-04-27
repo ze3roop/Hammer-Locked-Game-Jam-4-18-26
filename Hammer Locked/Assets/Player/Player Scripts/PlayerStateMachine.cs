@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStateMachine : MonoBehaviour, IDamageable
 {
@@ -76,6 +78,20 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
         playerCam.enabled = false;
 
         Camera.main.transform.LookAt(this.transform);
+
+        Death();
+    }
+
+    public void Death()
+    {
+        StartCoroutine(DeathRoutine());
+    }
+
+    IEnumerator DeathRoutine()
+    {
+        yield return new WaitForSeconds(3.5f);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void TryTakeDamage(float damage)
