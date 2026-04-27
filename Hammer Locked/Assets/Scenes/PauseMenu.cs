@@ -19,11 +19,11 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("PAUSE STARTED");
         //  pauseStarted = true;
-        if (isPaused)
-        {
-            ResumeGame();
-        }
-        else
+        // if (isPaused)
+        // {
+        //     ResumeGame();
+        // }
+        if(!isPaused)
         {
             PauseGame();   
         }
@@ -36,6 +36,8 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false; 
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;

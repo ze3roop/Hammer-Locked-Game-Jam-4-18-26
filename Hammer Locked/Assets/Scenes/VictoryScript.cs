@@ -5,14 +5,13 @@ using UnityEngine.UI;
 public class VictoryScript : MonoBehaviour
 {
     public SoundData sound;
-    public GameObject victoryText;
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             GameEventsManager.Instance.audioEvents.PlaySound(sound, this.transform.position);
-            victoryText.SetActive(true);
+            VictoryMenu.Instance.VictoryStart();
         }
     }
 }

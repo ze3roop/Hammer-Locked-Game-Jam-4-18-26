@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6545683985359686934
 Transform:
@@ -128,3 +128,7 @@ MonoBehaviour:
   smashWall: {fileID: 11400000, guid: 26a1d98df050dae4c98040e2dce42f2b, type: 2}
   wallFalls: {fileID: 11400000, guid: 3cffcf867f381864890d78a5e2e4527c, type: 2}
   currentHealth: 200
+  destroyedWall_prefab: {fileID: 0}
+  obstacle: {fileID: 0}
+  explosionForce: 0
+  explositionRadius: 0

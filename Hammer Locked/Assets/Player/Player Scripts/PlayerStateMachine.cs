@@ -67,6 +67,8 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     public SoundData groanSounds;
     #endregion
 
+    public GameObject fadetoblack;
+
     public MoveCamera moveCamera;
     public PlayerCam playerCam; 
 
@@ -84,12 +86,17 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
     public void Death()
     {
+        moveCamera.enabled = false;
+        playerCam.enabled = false;
+
+        GameEventsManager.Instance.inputEvents.IsPaused(true); 
+
         StartCoroutine(DeathRoutine());
     }
 
     IEnumerator DeathRoutine()
     {
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(2f);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -161,8 +168,8 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     #endregion
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
