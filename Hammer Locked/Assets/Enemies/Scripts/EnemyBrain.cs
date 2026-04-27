@@ -49,6 +49,8 @@ public class EnemyBrain : MonoBehaviour, IDamageable
     public SoundData groanSounds;
     public SoundData deathSounds;
 
+    public ParticleSystem hitEffect;
+
     //To have our source destination for our patrol radius
     public UnityEngine.Vector3 startingPosition;
 

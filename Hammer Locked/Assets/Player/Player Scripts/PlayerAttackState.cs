@@ -10,6 +10,8 @@ public class PlayerAttackState : PlayerBaseState
         sm.animator.Play("Human|HammerSwing1");
         sm.OnApplyDamage += OnApplyDamage; 
 
+        GameEventsManager.Instance.audioEvents.PlaySound(sm.swooshSound, sm.transform.position); 
+
     }
     public void OnApplyDamage(GameObject other)
     {

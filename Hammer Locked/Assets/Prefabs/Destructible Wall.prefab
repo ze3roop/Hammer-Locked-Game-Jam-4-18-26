@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8195812354593721247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3649090635909806528}
+  m_Layer: 3
+  m_Name: Destructible Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3649090635909806528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8195812354593721247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.05886, y: 0.5001, z: 26.9643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7158856929918602910}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8507171424804583784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3649090635909806528}
+    m_Modifications:
+    - target: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_Name
+      value: D_Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.49981928
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2499
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.6249199
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3081334755909194565, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      propertyPath: m_VersionIndex
+      value: 7091
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7114004897764916773}
+    - targetCorrespondingSourceObject: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3553819070083144910}
+  m_SourcePrefab: {fileID: 100100000, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+--- !u!4 &7158856929918602910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1537650674789054454, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+  m_PrefabInstance: {fileID: 8507171424804583784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9165253786821543777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 665985827693264393, guid: 93c487a28dccbe14fb2314b1855ddc90, type: 3}
+  m_PrefabInstance: {fileID: 8507171424804583784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7114004897764916773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9165253786821543777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b509aa34f3b3ed468cfe76f14503b22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wall
+  smashWall: {fileID: 11400000, guid: 26a1d98df050dae4c98040e2dce42f2b, type: 2}
+  wallFalls: {fileID: 11400000, guid: 3cffcf867f381864890d78a5e2e4527c, type: 2}
+  currentHealth: 150
+  destroyedWall_prefab: {fileID: 7807900925165329946, guid: 90d6c5372a565f74b99826b49ff2ed71, type: 3}
+  obstacle: {fileID: 3553819070083144910}
+  explosionForce: 500
+  explositionRadius: 10
+--- !u!208 &3553819070083144910
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9165253786821543777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 1.25, z: 1.5000001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: -0.125}
+  m_TimeToStationary: 0.5

@@ -32,11 +32,11 @@ public class PatrolState : IEnemyState
         {
             isInPatrolPosition = false;
             b.Move.MoveTo(b.startingPosition);
-            Debug.Log("Moving to patrol position");
+            // Debug.Log("Moving to patrol position");
         }
         else
         {
-            Debug.Log("IN PATROL POSITION");
+            // Debug.Log("IN PATROL POSITION");
             isInPatrolPosition = true;
         }
             

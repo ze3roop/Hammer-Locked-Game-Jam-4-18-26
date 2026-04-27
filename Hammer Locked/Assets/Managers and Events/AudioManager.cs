@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
 
     public void OnPlaySound(SoundData sound, Vector3 position)
     {
-        Debug.Log("PLAYING SOUND");
+        // Debug.Log("PLAYING SOUND");
         if (sound == null) return;
 
         AudioClip clip = sound.GetRandomClip();

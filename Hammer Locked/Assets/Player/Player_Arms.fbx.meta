@@ -3,7 +3,22 @@ guid: 3715335cd7a8df54eb68d6bffb1ca502
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MergedBake_Baked.001
+    second: {fileID: 2100000, guid: 15be3dc4be5f55547a279bdc89f26eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: b7f41052daa36724f9fa58857eba510d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 80d4b8dfcd8a7f54a92a37e2d612653d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -58,6 +58,11 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
     public Animator animator; 
 
+    #region SOUNDS
+    public SoundData swooshSound;
+
+    #endregion
+
     public void TryTakeDamage(float damage)
     {
         // take damage
@@ -85,8 +90,6 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
 
     private void Awake()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         //Singleton
         if(Instance != null && Instance != this)
         {
@@ -126,6 +129,8 @@ public class PlayerStateMachine : MonoBehaviour, IDamageable
     #endregion
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 

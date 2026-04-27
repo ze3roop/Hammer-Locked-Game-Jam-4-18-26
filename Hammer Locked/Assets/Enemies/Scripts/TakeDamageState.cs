@@ -16,6 +16,8 @@ public class TakeDamageState : IEnemyState
         b.Move.Stop();
         b.Move.ZeroVelocity();
 
+        b.hitEffect.Play(); 
+
         b.OnTakeDamage += OnTakeDamage;
     }
 

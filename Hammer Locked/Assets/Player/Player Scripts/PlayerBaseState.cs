@@ -208,9 +208,10 @@ public class PlayerBaseState : PlayerStateManager
 
     private bool OnSlope()
     {
-        if(Physics.Raycast(sm.transform.position, Vector3.down, out sm.slopeHit, sm.playerHeight * 0.5f + 0.3f))
+        if(Physics.Raycast(sm.transform.position, Vector3.down, out sm.slopeHit, sm.playerHeight  + 0.3f))
         {
             float angle = Vector3.Angle(Vector3.up, sm.slopeHit.normal);
+            //  if(angle < sm.maxSlopeAngle && angle != 0) Debug.Log("ON SLOPE");
             return angle < sm.maxSlopeAngle && angle != 0;
         }
 
